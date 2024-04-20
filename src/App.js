@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ColorSchemesExample from './components/Navbar';
 
 const App = () => {
   const [painLevel, setPainLevel] = useState('');
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <div>
+    <ColorSchemesExample />
       <h2>Symptom Tracker</h2>
       <form onSubmit={handleSubmit}>
         <label>
