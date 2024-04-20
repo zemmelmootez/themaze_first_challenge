@@ -1,7 +1,6 @@
 import React from "react";
 
 const SymptomsHistory = () => {
-  // Fetch symptoms history from local storage
   const symptomsHistory =
     JSON.parse(localStorage.getItem("symptomsHistory")) || [];
 
